@@ -1,1 +1,36 @@
 /* your code */
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f4f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    table {
+      width: 60%;
+      border-collapse: collapse;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    caption {
+      font-weight: bold;
+      font-size: 1.5em;
+      padding: 10px;
+      color: #333;
+    }
+    thead {
+      background-color: #4caf50;
+      color: white;
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+    tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    tbody tr:hover {
+      background-color: #e0f7fa;
+    }
